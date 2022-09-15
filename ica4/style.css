@@ -33,6 +33,7 @@ body {
 
   .card h2{
     margin: 0;
+    font-size: 20px;
   }
 
   .card p{
@@ -59,6 +60,8 @@ body {
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
+
+    font-size: 15px;
   }
   
   .card article img{
@@ -68,6 +71,14 @@ body {
 
   .card article{
     height: 120px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.271);
   } 
+
+  .card article p{
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
 
 
