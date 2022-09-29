@@ -198,7 +198,59 @@ article hr {
     width: 1299px;
     height: 0px;
     left: 71px;
-    top: 633px;
+    top: 700px;
 
     border: 4px solid #D4A373;
+}
+
+nav {
+    background-color: #CCD5AE;
+    padding: .5em;
+    top: 0;
+    position: sticky;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  nav a {
+    font-family: 'Georgia';
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    padding: .5em 1em;
+    text-decoration: none;
+  }
+
+
+  .photos {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    top: 750px;
+    float: right;
+  }
+
+@media all and (max-width: 700px){
+    .photos {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media all and (min-width: 900px){
+    .photos {
+        grid-template-columns: 1fr 1fr;
+    }
 }
