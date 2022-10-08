@@ -1,0 +1,9 @@
+Needs to be unzipped
+
+to compile
+
+g++ Player.cpp Map.cpp Planet.cpp Game.cpp Alien.cpp Crewmate.cpp gameDriver.cpp
+
+to run
+
+./a.out
