@@ -5,11 +5,11 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
-const imgNames  = ['./images/pic1.jpg','./images/pic2.jpg','./images/pic3.jpg','./images/pic4.jpg','./images/pic5.jpg'];
+const imgNames  = ['./images/minion1.jpg','./images/minion2.jpg','./images/minion3.jpg','./images/minion4.jpg','./images/minion5.jpg'];
 
 /* Declaring the alternative text for each image file */
 
-const altText = ['eye','shell waves','flowers','Egyptian painting','moth'];
+const altText = ['minion meme','minion meme','minion meme','minion meme','minion meme'];
 
 /* Looping through images */
 
