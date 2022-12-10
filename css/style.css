@@ -613,3 +613,10 @@ iframe {
         padding-right: 2em;
     }
 }
+
+canvas {
+    background-color: skyblue;
+    position: fixed;
+    top: 25%;
+    left: 17%;
+}
